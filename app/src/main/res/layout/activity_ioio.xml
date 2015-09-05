@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surface_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ip_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_ip_address"
+            android:textColor="#ca2559"
+            android:textSize="@dimen/data_text_size" />
+
+        <TextView
+            android:id="@+id/tv_movement_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed 0"
+            android:textColor="#ca2559"
+            android:textSize="@dimen/data_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_move_forward_left"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_upleft"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btn_move_forward"
+                android:layout_width="@dimen/direction_shortest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_up"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btn_move_forward_right"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_upright"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_move_left"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_shortest"
+                android:background="@drawable/button_left"
+                android:enabled="false" />
+
+            <Button
+                android:layout_width="@dimen/direction_shortest"
+                android:layout_height="@dimen/direction_shortest"
+                android:background="@drawable/button_center"
+                android:enabled="false"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_move_right"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_shortest"
+                android:background="@drawable/button_right"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_move_backward_left"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_downleft"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btn_move_backward"
+                android:layout_width="@dimen/direction_shortest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_down"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btn_move_backward_right"
+                android:layout_width="@dimen/direction_longest"
+                android:layout_height="@dimen/direction_longest"
+                android:background="@drawable/button_downright"
+                android:enabled="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+            

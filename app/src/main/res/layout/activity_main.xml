@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_ioio"
+        android:layout_width="@dimen/button_menu_width"
+        android:layout_height="@dimen/button_menu_height"
+        android:layout_gravity="bottom"
+        android:background="@drawable/button_mode_ioio" />
+
+    <Button
+        android:id="@+id/btn_controller"
+        android:layout_width="@dimen/button_menu_width"
+        android:layout_height="@dimen/button_menu_height"
+        android:layout_gravity="top"
+        android:background="@drawable/button_mode_control" />
+
+</LinearLayout>

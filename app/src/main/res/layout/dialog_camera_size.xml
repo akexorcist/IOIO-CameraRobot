@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow" >
+
+    <ListView
+        android:id="@+id/lv_available_preview_size"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/listview_size_margin"
+        android:divider="@drawable/image_divider" />
+
+</LinearLayout>

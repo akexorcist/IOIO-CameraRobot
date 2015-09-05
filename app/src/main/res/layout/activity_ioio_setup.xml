@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffbd5" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="30dp"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	    <requestFocus />
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		   	android:layout_margin="10dp"
+	   		android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical"
+			    android:layout_marginRight="@dimen/layout_margin_right"
+			    android:layout_marginEnd="@dimen/layout_margin_right"
+			    android:gravity="center"
+			    android:orientation="vertical" >
+
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+		   	 		android:layout_marginBottom="10dp"
+			        android:text="@string/image_resolution"
+			        android:textColor="@color/pink"
+			        android:textSize="@dimen/connection_text_size" />
+
+			    <Button
+			        android:id="@+id/btn_preview_size_chooser"
+			        android:layout_width="@dimen/camera_size_button_width"
+			        android:layout_height="@dimen/camera_size_button_height"
+			        android:background="@drawable/spinner_background"
+			        android:textColor="@color/white"
+			        android:textSize="@dimen/connection_text_size" />
+
+			</LinearLayout>
+			<LinearLayout
+			    android:id="@+id/layout"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:orientation="vertical" >
+			    <TextView
+			        android:id="@+id/tv_image_quality"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/image_quality"
+			        android:textColor="@color/pink"
+			        android:textSize="@dimen/connection_text_size" />
+
+			    <SeekBar
+			        android:id="@+id/sb_image_quality"
+			        android:layout_width="@dimen/seekbar_width"
+			        android:layout_height="@dimen/seekbar_height"
+			        android:layout_marginTop="10dp"
+			        android:max="100"
+			        android:progress="30"
+			        android:progressDrawable="@drawable/seekbar_progress"
+			        android:thumb="@null" />
+		
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="@dimen/edit_text_margin_top"
+			        android:text="@string/password"
+			        android:textColor="@color/pink"
+			        android:textSize="@dimen/connection_text_size" />
+
+			    <EditText
+			        android:id="@+id/et_password"
+			        android:layout_width="@dimen/edit_text_width"
+			        android:layout_height="@dimen/edit_text_height"
+			        android:background="@drawable/edittext_bg"
+			        android:gravity="center_horizontal"
+			        android:maxLength="10"
+			        android:textColor="@color/light_pink"
+			        android:textSize="@dimen/connection_text_size"
+	            	android:singleLine="true"
+					android:inputType="textPassword" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/btn_ok"
+		    android:layout_width="@dimen/login_button_size"
+		    android:layout_height="@dimen/login_button_size"
+		    android:background="@drawable/button_start" />
+
+	</LinearLayout>
+
+	<ImageView
+	    android:layout_width="@dimen/image_mode_size"
+	    android:layout_height="@dimen/image_mode_size"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentStart="true"
+	    android:layout_alignParentTop="true"
+	    android:src="@drawable/dialog_header_ioio"
+		android:contentDescription="@null" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera Robot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="image_resolution">Image Resolution</string>
+    <string name="image_quality">Image Quality %1$s %%</string>
+    <string name="movement_speed">Speed %1$s</string>
+    <string name="password_is_required">Password is required.</string>
+    <string name="unavailable_flash_mode">Unavailable Flash Mode.</string>
+    <string name="unsupport_flash">Device not support flash</string>
+    <string name="out_of_memory">Out of memory. Please decrease image quality and preview size.</string>
+    <string name="connection_down">Connection down, will be restart service in 1 seconds</string>
+    <string name="default_ip_address">0.0.0.0</string>
+    <string name="incompatible_firmware">Incompatible firmware version</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="ip_address">IP Address</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="photo_taken">Photo Taken.</string>
+    <string name="connection_accepted">Connection accepted</string>
+
+</resources>
