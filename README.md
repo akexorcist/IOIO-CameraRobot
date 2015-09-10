@@ -1,3 +1,5 @@
+![IOIO Camera Robot Circuit](https://raw.githubusercontent.com/akexorcist/IOIO-CameraRobot/master/doc/header.jpg)
+
 # IOIO-CameraRobot
 IOIO Robot Car with Real-time Camera from Android Device that Controlled with Another Android Device via WiFi.
 
@@ -15,7 +17,7 @@ Parts List
 
 Hardware Instructions
 ===========================
-![Icon Round Corner Progress Bar Sample](https://raw.githubusercontent.com/akexorcist/IOIO-CameraRobot/master/doc/circuit.jpg)
+![IOIO Camera Robot Circuit](https://raw.githubusercontent.com/akexorcist/IOIO-CameraRobot/master/doc/circuit-thumbnail.jpg)
 
 + (IOIO) Pin 1 <> AIN1 (TB6612 Left)
 + (IOIO) Pin 2 <> AIN2 (TB6612 Left)
